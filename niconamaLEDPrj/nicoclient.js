@@ -70,7 +70,7 @@ client.on('connect', function(connection) {
       }
   });
       
-  connection.sendUTF('{"thread":{"version":20061206,"thread":"<Live Chat ID>","service":"LIVE"}}');
+  connection.sendUTF('{"thread":{"version":20061206,"thread":"NX<live id>","service":"LIVE"}}');
 });
 
 client.connect('ws://nmsg.nicovideo.jp:2580/websocket', 'msg.nicovideo.jp#json');
