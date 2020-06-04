@@ -1,0 +1,16 @@
+{
+  "name": "niconamaledprj",
+  "version": "1.0.0",
+  "description": "ニコニコ生放送で打たれた、特定のコメントによってArduinoのLEDを制御できる。  \r コメントLチカ的なの。",
+  "main": "nicoclient.js",
+  "dependencies": {
+    "johnny-five": "^1.4.0",
+    "websocket": "^1.0.31"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}
